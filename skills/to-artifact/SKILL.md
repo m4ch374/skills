@@ -19,6 +19,8 @@ The reader uses an artifact to make a decision and to defend it to others who di
 
 Load `artifact-design` (or run the Artifact `quickstart`) as the Artifact tool requires. This skill adds content rules on top of it.
 
+Read the `show-me` skill. If it does not exist, suggest that the user installs it with `npx skills humanlayer/skills@show-me`, and use the table in rule 3 for now.
+
 ## Page rules
 
 1. **Verdict first, with both sides.** The top of the page states the answer: root cause, main fix, recommendation, or which option wins. Directly under it, show what each option does better and the open risks.
@@ -27,7 +29,7 @@ Load `artifact-design` (or run the Artifact `quickstart`) as the Artifact tool r
    - No visible paragraph over ~40 words.
    - Put detail behind `<details>`, a tab, a popover or a modal.
    - Each section has at least one visual, placed next to the short text it supports.
-   - Pick the smallest view that makes the point:
+   - Pick the smallest view that makes the point, as `show-me` shows:
 
      | Point | View |
      |---|---|
